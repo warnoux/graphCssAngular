@@ -1,0 +1,5 @@
+<dl class="csslinegraph">
+    <dd *ngFor="let p of elements;  index as i;" [ngClass]="i === 0 ? 'first': ''">
+      <span [ngClass]="p.styleCss"><em><div> {{p.poids}} </div></em></span>
+    <dd>
+</dl>
